@@ -1,0 +1,50 @@
+{
+    "Sloop": [
+      "Broadside",
+      "Presence",
+      "Presence",
+      "Rapid Strike",
+      "Evasive",
+      "Inspired Attack",
+      "Masterful Plan",
+      "Scatter Shot",
+      "Patch Work",
+      "Inspiration",
+      "Stick and Move",
+      "Misdirection",
+      "Inspired Attack",
+      "Inspiration"
+    ],
+    "Galleon": [
+      "Heavy Blow",
+      "Fix It!",
+      "Big Guns",
+      "Roll With It",
+      "Harpoon The Hull",
+      "Presence",
+      "Scatter Shot",
+      "Basic Relief",
+      "Renew",
+      "Vampiric Strike",
+      "Vampiric Strike",
+      "Double Strike",
+      "That's A Big Hole",
+      "Continuous Repairs"
+    ],
+    "Frigate": [
+      "Broadside",
+      "Scatter Shot",
+      "Counter Strike",
+      "Shell of Defense",
+      "Hardened Shield",
+      "Basic Planning",
+      "Bombardment",
+      "Respond in Kind",
+      "Patch Work",
+      "Feint",
+      "Bombardment",
+      "Feint",
+      "Rain of Iron",
+      "Fortitude"
+    ]
+}
