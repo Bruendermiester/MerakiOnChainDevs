@@ -4,7 +4,7 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h2>Meraki Games</h2>
+      <h2>Meraki OnChain Devs</h2>
       <div className={styles.projects}>
         <iframe
           src="/unity.html"
