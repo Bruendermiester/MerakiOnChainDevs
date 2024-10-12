@@ -32,27 +32,14 @@ export default function OnChainTest() {
 
   return (
     <div className='title'>
-      <div>
-        <select value={attribute} onChange={(e) => setAttribute(e.target.value)}>
-          <option value="Damage">Damage</option>
-          <option value="Accuracy">Accuracy</option>
-          <option value="Speed">Speed</option>
-          <option value="Health">Health</option>
-          <option value="Evasion">Evasion</option>
-        </select>
-        <select value={ship} onChange={(e) => setShip(e.target.value)}>
-          <option value="Galleon">Galleon</option>
-          <option value="Frigate">Frigate</option>
-          <option value="Sloop">Sloop</option>
-        </select>
-        <input type="number" value={level} min="1" max="30" onChange={(e) => setLevel(e.target.value)} />
-      </div>
-      <div className="cards-container">
-        {filteredCards.map(card => (
-          <div key={card.name} className="card">
-            {card.image ? <img src={card.image} alt={card.name} /> : <div className='fallback'>{card.name}</div>}
-          </div>
-        ))}
+      <div style={{ textAlign: 'center' }}>
+        <iframe
+          src="/unity.html"
+          width="100%"
+          height="600px"
+          title="Unity Game"
+          frameBorder="0"
+        ></iframe>
       </div>
     </div>
   );

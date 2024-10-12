@@ -4,13 +4,17 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h2>Meraki OnChain Devss</h2>
+      <h2>Meraki OnChain Devs</h2>
       <h3>Playground</h3>
 
       <div className={styles.projects}>
-        <a className={styles.project} href="/onchaintest">
-            On Chain Test
-        </a>
+        <iframe
+          src="/unity.html"
+          width="100%"
+          height="600px"
+          title="Unity Game"
+          frameBorder="0"
+        ></iframe>
       </div>
     </main>
   )
