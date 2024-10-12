@@ -4,8 +4,7 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h2>Meraki OnChain Devs</h2>
-      <h3>Playground</h3>
+      <h2>Meraki Games</h2>
 
       <div className={styles.projects}>
         <iframe
