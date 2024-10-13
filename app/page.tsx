@@ -14,6 +14,10 @@ export default function Home() {
           frameBorder="0"
         ></iframe>
       </div>
+
+      <div>
+        {/* <Subscribe></Subscribe> */}
+      </div>
     </main>
   )
 }
