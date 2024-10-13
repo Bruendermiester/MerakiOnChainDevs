@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@parcel/watcher": "^2.4.1",
     "aws-amplify": "^6.0.3",
     "next": "latest",
     "react": "^18",
