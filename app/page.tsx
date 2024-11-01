@@ -6,13 +6,13 @@ export default function Home() {
     <main className={styles.main}>
       <h2>Meraki OnChain Devs</h2>
       <div className={styles.projects}>
-        <iframe
+        {/* <iframe
           src="/unity.html"
           width="100%"
           height="600px"
           title="Unity Game"
           frameBorder="0"
-        ></iframe>
+        ></iframe> */}
       </div>
 
       <div>
