@@ -28,8 +28,9 @@ export const metadata: Metadata = {
     description: 'Dive into the mystical world of Pirate Nation with Isles of the Arcane, an action-packed MOBA hero shooter game.',
     images: ['https://islesofthearcane.com/images/background2.png'],
   },
-  canonical: 'https://islesofthearcane.com',
-  author: 'Meraki OnChain Devs',
+  alternates: {
+    canonical: 'https://islesofthearcane.com/'
+  },
   viewport: 'width=device-width, initial-scale=1',
   themeColor: '#1a1a1a',
   robots: 'index, follow',
