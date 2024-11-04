@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const EmailForm = () => {
   const [email, setEmail] = useState('');
@@ -12,13 +13,24 @@ const EmailForm = () => {
   };
 
   // Handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (!validateEmail(email)) {
       setError('Please enter a valid email address.');
       return;
     }
+
+    // try {
+    //     const response = await axios.post('https://your-api-gateway-url.amazonaws.com', { email });
+    //     if (response.data.success) {
+    //       alert('Email submitted successfully!');
+    //     } else {
+    //       setError('Something went wrong. Please try again.');
+    //     }
+    //   } catch (error) {
+    //     setError(error.response?.data?.message || 'Failed to submit email');
+    //   }
 
     setError('');
     setIsSubmitted(true);
