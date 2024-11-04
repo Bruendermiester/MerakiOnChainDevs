@@ -41,7 +41,7 @@ export default function Home() {
           <div class="footer-section about">
             <h3>About Us</h3>
             <p>
-              Isles of the Arcane is an moba meets hero shooter game that is a mod of pirate nation. Artwork/Assets courtesy of Proof of Play.
+              Isles of the Arcane is an moba meets hero shooter game that is a mod of Pirate Nation. Artwork/Assets courtesy of Proof of Play.
             </p>
           </div>
 
