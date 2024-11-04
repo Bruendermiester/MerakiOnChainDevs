@@ -61,9 +61,11 @@ const EmailForm = () => {
   }, []);
 
   return (
+    <>
+    <h2 style={{ textAlign: 'center', paddingTop: "20px", marginBottom: '20px', fontSize: '36px'}}>SIGN UP FOR PLAYTEST</h2>
     <form onSubmit={handleSubmit} style={{ maxWidth: '300px', margin: 'auto' }}>
       <div style={{ paddingTop: '20px', marginBottom: '10px' }}>
-        <h2 style={{ textAlign: 'center', marginBottom: '20px'}}>SIGN UP FOR PLAYTEST</h2>
+        
         <input
           type="email"
           id="email"
@@ -124,6 +126,7 @@ const EmailForm = () => {
         </div>
       )}
     </form>
+    </>
   );
 };
 
