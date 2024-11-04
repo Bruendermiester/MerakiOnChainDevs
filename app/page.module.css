@@ -113,6 +113,11 @@
   position: relative;
   box-shadow: 0 0 1px 1px;
 }
+.wrapper {
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
 
 .background {
   background-image: url('/images/test1.webp');
@@ -120,17 +125,15 @@
   background-position: center; /* Centers the image */
   background-repeat: no-repeat;
   background-color:  rgba(14, 14, 77, 0.404);
-  padding: 125px 0;
+  padding: 150px 0;
   height: 100%;
 }
 .shadow {
   --tw-bg-opacity: .92;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-  height: 81%;
+  height: 100%;
   width: 100%;
   position: absolute;
-  padding-top: -48px;
-  margin-top: -125px;
 }
 .shadow2 {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));

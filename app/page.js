@@ -2,6 +2,7 @@
 import React, { useRef } from 'react';
 import styles from './page.module.css';
 import EmailForm from './components/emailForm';
+import { SocialIcon } from 'react-social-icons';
 
 export default function Home() {
   // Create a ref for the email section
@@ -27,15 +28,19 @@ export default function Home() {
           {/* Additional content goes here */}
         </div>
       </main>
-      <div className={styles.background}>
+      <div className={styles.wrapper}>
         <div className={styles.shadow}></div>
-        <div ref={emailSectionRef} className={styles.emailSection}>
-          <div className={styles.shadow2}></div>
-          <div className={styles.formstuff}>
-            <EmailForm />
+        <div className={styles.background}>
+          <div ref={emailSectionRef} className={styles.emailSection}>
+            <div className={styles.shadow2}></div>
+            <div className={styles.formstuff}>
+              <EmailForm />
+            </div>
           </div>
         </div>
+        
       </div>
+
       <footer class="footer">
         <div class="footer-content">
           <div class="footer-section about">
@@ -56,6 +61,10 @@ export default function Home() {
           <div class="footer-section contact">
             <h3>Contact Us</h3>
             <p>Email: islesofthearcane@gmail.com</p>
+            <div class="social-icons">
+              <SocialIcon url="https://www.youtube.com/@islesofthearcane" />
+              <SocialIcon url="https://x.com/islesofarcane" />
+            </div>
           </div>
         </div>
         <div class="footer-bottom">
