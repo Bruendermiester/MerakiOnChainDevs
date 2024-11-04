@@ -21,16 +21,16 @@ const EmailForm = () => {
       return;
     }
 
-    // try {
-    //     const response = await axios.post('https://your-api-gateway-url.amazonaws.com', { email });
-    //     if (response.data.success) {
-    //       alert('Email submitted successfully!');
-    //     } else {
-    //       setError('Something went wrong. Please try again.');
-    //     }
-    //   } catch (error) {
-    //     setError(error.response?.data?.message || 'Failed to submit email');
-    //   }
+    try {
+        const response = await axios.post('https://t7xzdo37al.execute-api.us-east-1.amazonaws.com/email', { email });
+        if (response.data.success) {
+          alert('Email submitted successfully!');
+        } else {
+          setError('Something went wrong. Please try again.');
+        }
+      } catch (error) {
+        setError(error.response?.data?.message || 'Failed to submit email');
+      }
 
     setError('');
     setIsSubmitted(true);
