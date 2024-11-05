@@ -22,18 +22,26 @@ const EmailForm = () => {
     }
 
     try {
-        const response = await axios.post('https://t7xzdo37al.execute-api.us-east-1.amazonaws.com/email', { email });
-        if (response.data.success) {
-          alert('Email submitted successfully!');
-        } else {
-          setError('Something went wrong. Please try again.');
+      const response = await axios.post(
+        'https://mxffba25t9.execute-api.us-east-1.amazonaws.com/test/email',
+        { email },
+        {
+          headers: {
+            'Content-Type': 'application/json', // Only necessary header
+          },
         }
-      } catch (error) {
-        setError(error.response?.data?.message || 'Failed to submit email');
+      );
+    
+      if (response.data.success) {
+        setIsSubmitted(true);
+        setError('');
+      } else {
+        setError('Something went wrong. Please try again.');
       }
-
-    setError('');
-    setIsSubmitted(true);
+    } catch (error) {
+      setError(error.response?.data?.message || 'Failed to submit email');
+    }
+   
 
     // Simulate an API request
     setTimeout(() => {
