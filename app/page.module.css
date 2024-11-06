@@ -6,7 +6,16 @@
   color: #FFF;
   min-height: 80vh;
 }
-.main h2 {
+.mainPlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(4, 13, 63, 0.603) 100%);
+  color: #FFF;
+  min-height: 100vh;
+  margin-top: 50px;
+}
+.mainPlay h2, .main h2 {
   font-size: 36px;
   font-weight: bold;
 }
