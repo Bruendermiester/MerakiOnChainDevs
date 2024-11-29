@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import styles from './page.module.css';
 import EmailForm from './components/emailForm';
 import { SocialIcon } from 'react-social-icons';
+import YoutubePlayer from './components/YoutubePlayer';
 
 export default function Home() {
   // Create a ref for the email section
@@ -25,7 +26,12 @@ export default function Home() {
       </header>
       <main className={styles.main}>
         <div className={styles.projects}>
-          {/* Additional content goes here */}
+        <div className={styles.projects}>
+          <div className={styles.videoWrapper}>
+            <YoutubePlayer videoId="dQw4w9WgXcQ" />
+          </div>
+        </div>
+
         </div>
       </main>
       <div className={styles.wrapper}>
