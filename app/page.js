@@ -28,7 +28,7 @@ export default function Home() {
         <div className={styles.projects}>
         <div className={styles.projects}>
           <div className={styles.videoWrapper}>
-            <YoutubePlayer videoId="dQw4w9WgXcQ" />
+            <YoutubePlayer videoId="exBfGv7t4TM" />
           </div>
         </div>
 
