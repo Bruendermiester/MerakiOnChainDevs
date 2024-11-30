@@ -25,7 +25,7 @@
 }
 .projects {
   display: flex;
-  padding-top: 100px;
+  padding-top: 30px;
   width: 1062px;
 }
 .project {
@@ -184,11 +184,11 @@
   }
   .projects {
     display: flex;
-    padding-top: 100px;
+    padding-top: 35px;
     width: auto;
   }
   .main {
-    min-height: 60vh;
+    min-height: 40vh;
   }
 }
 
