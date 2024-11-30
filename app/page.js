@@ -4,6 +4,7 @@ import styles from './page.module.css';
 import EmailForm from './components/emailForm';
 import { SocialIcon } from 'react-social-icons';
 import YoutubePlayer from './components/YoutubePlayer';
+import Link from 'next/link';
 
 export default function Home() {
   // Create a ref for the email section
@@ -53,7 +54,8 @@ export default function Home() {
             <h3>About Us</h3>
             <p>
               Isles of the Arcane is an moba meets hero shooter game that is a mod of Pirate Nation. Artwork/Assets courtesy of Proof of Play.
-            </p>
+            </p> <br></br>
+            Priate Nation: <Link href="https://piratenation.game/signup?code=P-salt-map-454" className={styles.linkCode}>Referer code</Link>
           </div>
 
           <div class="footer-section links">
@@ -69,7 +71,7 @@ export default function Home() {
             <p>Email: islesofthearcane@gmail.com</p>
             <div class="social-icons">
               <SocialIcon url="https://www.youtube.com/@islesofthearcane" />
-              <SocialIcon url="https://x.com/islesofarcane" />
+              <SocialIcon url="https://x.com/JonBruenderman" />
             </div>
           </div>
         </div>
